@@ -79,10 +79,10 @@ _callbacks_._smash({
       "$t": "totalResults"
     },
     "openSearch$startIndex": {
-      "$t": startIndex
+      "$t": 0
     },
     "openSearch$itemsPerPage": {
-      "$t": itemsPerPage
+      "$t": 1
     },
     "entry": [
       {
