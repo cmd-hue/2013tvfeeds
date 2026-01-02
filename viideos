@@ -437,6 +437,213 @@ _callbacks_._smash({
         "author": [
           {
             "name": {
+              "$t": "author"
+            },
+            "uri": {
+              "$t": "http://gdata.youtube.com/feeds/api/users/samsungs5"
+            },
+            "yt$userId": {
+              "$t": "samsungs5"
+            }
+          }
+        ],
+        "yt$accessControl": [
+          { "action": "comment", "permission": "allowed" },
+          { "action": "commentVote", "permission": "allowed" },
+          { "action": "videoRespond", "permission": "allowed" },
+          { "action": "rate", "permission": "allowed" },
+          { "action": "embed", "permission": "allowed" },
+          { "action": "list", "permission": "allowed" },
+          { "action": "autoPlay", "permission": "allowed" },
+          { "action": "syndicate", "permission": "allowed" }
+        ],
+        "gd$comments": {
+          "gd$feedLink": {
+            "rel": "http://gdata.youtube.com/schemas/2007#comments",
+            "href": "http://gdata.youtube.com/feeds/api/videos/YExOWOX9kKw/comments?v=2",
+            "countHint": "commentsCount"
+          }
+        },
+        "yt$hd": {},
+        "media$group": {
+          "media$category": [
+            {
+              "$t": "categoryTerm",
+              "label": "categoryLabel",
+              "scheme": "http://gdata.youtube.com/schemas/2007/categories.cat"
+            }
+          ],
+          "media$credit": [
+            {
+              "$t": "uploader",
+              "role": "uploader",
+              "scheme": "urn:youtube",
+              "yt$display": "author",
+              "yt$type": "partner"
+            }
+          ],
+          "media$description": {
+            "$t": "i farted thank you. Thank you. © transcript Emily Beynon Thank you for watching.",
+            "type": "plain"
+          },
+          "media$keywords": "keywords",
+          "media$license": {
+            "$t": "youtube",
+            "type": "text/html",
+            "href": "http://www.youtube.com/t/terms"
+          },
+          "media$player": {
+            "url": "http://www.youtube.com/watch?v=YExOWOX9kKw&feature=youtube_gdata_player"
+          },
+          "media$thumbnail": [
+            {
+              "url": "https://files.catbox.moe/kl1kk8.mp4?default",
+              "height": 90,
+              "width": 120,
+              "time": "00:00:45.500",
+              "yt$name": "default"
+            },
+            {
+              "url": "https://files.catbox.moe/kl1kk8.mp4?mqdefault",
+              "height": 180,
+              "width": 320,
+              "yt$name": "mqdefault"
+            },
+            {
+              "url": "https://files.catbox.moe/kl1kk8.mp4?hqdefault",
+              "height": 360,
+              "width": 480,
+              "yt$name": "hqdefault"
+            },
+            {
+              "url": "https://files.catbox.moe/kl1kk8.mp4?sddefault",
+              "height": 480,
+              "width": 640,
+              "yt$name": "sddefault"
+            },
+            {
+              "url": "pfpURL",
+              "height": 90,
+              "width": 120,
+              "time": "00:00:22.750",
+              "yt$name": "start"
+            },
+            {
+              "url": "pfpURL",
+              "height": 90,
+              "width": 120,
+              "time": "00:00:45.500",
+              "yt$name": "middle"
+            },
+            {
+              "url": "pfpURL",
+              "height": 90,
+              "width": 120,
+              "time": "00:01:08.250",
+              "yt$name": "end"
+            }
+          ],
+          "media$title": {
+            "$t": "title",
+            "type": "plain"
+          },
+          "yt$aspectRatio": {
+            "$t": "widescreen"
+          },
+          "yt$duration": {
+            "seconds": "2036"
+          },
+          "yt$uploaded": {
+            "$t": "2026-01-01T00:00:00Z"
+          },
+          "yt$uploaderId": {
+            "$t": "nanananana"
+          },
+          "yt$videoid": {
+            "$t": "YExOWOX9kKw"
+          }
+        },
+        "gd$rating": {
+          "average": "5",
+          "max": 5,
+          "min": 1,
+          "numRaters": "100",
+          "rel": "http://schemas.google.com/g/2005#overall"
+        },
+        "yt$statistics": {
+          "favoriteCount": "293.3K",
+          "viewCount": "1M"
+        },
+        "yt$rating": {
+          "numDislikes": "0",
+          "numLikes": "100"
+        }
+      }
+    ],[
+      {
+        "gd$etag": "hfhfhyftrhyffrtfgftfg",
+        "id": {
+          "$t": "tag:youtube.com,2008:video:YExOWOX9kKw"
+        },
+        "published": {
+          "$t": "publishedIso"
+        },
+        "updated": {
+          "$t": "updatedIso"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/g/2005#kind",
+            "term": "http://gdata.youtube.com/schemas/2007#video"
+          },
+          {
+            "scheme": "http://gdata.youtube.com/schemas/2007/categories.cat",
+            "term": "categoryTerm",
+            "label": "categoryLabel"
+          }
+        ],
+        "title": {
+          "$t": "nananannanananarffhryrthgtrfyfhrtyugfhtfrg"
+        },
+        "content": {
+          "type": "application/x-shockwave-flash",
+          "src": "http://www.youtube.com/v/YExOWOX9kKw?version=3&f=standard&app=youtube_gdata"
+        },
+        "link": [
+          {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "http://www.youtube.com/watch?v=YExOWOX9kKw&feature=youtube_gdata"
+          },
+          {
+            "rel": "http://gdata.youtube.com/schemas/2007#video.responses",
+            "type": "application/atom+xml",
+            "href": "http://gdata.youtube.com/feeds/api/videos/YExOWOX9kKw/responses?v=2"
+          },
+          {
+            "rel": "http://gdata.youtube.com/schemas/2007#video.related",
+            "type": "application/atom+xml",
+            "href": "http://gdata.youtube.com/feeds/api/videos/YExOWOX9kKw/related?v=2"
+          },
+          {
+            "rel": "http://gdata.youtube.com/schemas/2007#mobile",
+            "type": "text/html",
+            "href": "http://m.youtube.com/details?v=YExOWOX9kKw"
+          },
+          {
+            "rel": "http://gdata.youtube.com/schemas/2007#uploader",
+            "type": "application/atom+xml",
+            "href": "http://gdata.youtube.com/feeds/api/users/uploaderId?v=2"
+          },
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "http://gdata.youtube.com/feeds/api/videos/YExOWOX9kKw"
+          }
+        ],
+        "author": [
+          {
+            "name": {
               "$t": "null"
             },
             "uri": {
