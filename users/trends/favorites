@@ -313,7 +313,7 @@ _callbacks_._smash({
           }
         ],
         "title": {
-          "$t": "title"
+          "$t": "WHAT IF AUGUST 12 2036"
         },
         "content": {
           "type": "application/x-shockwave-flash",
@@ -360,7 +360,7 @@ _callbacks_._smash({
               "$t": "http://gdata.youtube.com/feeds/api/users/samsungs5"
             },
             "yt$userId": {
-              "$t": "samsungs5"
+              "$t": "nexus"
             }
           }
         ],
@@ -400,7 +400,7 @@ _callbacks_._smash({
             }
           ],
           "media$description": {
-            "$t": "Thank you. Thank you. © transcript Emily Beynon Thank you for watching.",
+            "$t": "august 12 2036",
             "type": "plain"
           },
           "media$keywords": "keywords",
