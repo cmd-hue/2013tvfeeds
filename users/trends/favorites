@@ -82,7 +82,7 @@ _callbacks_._smash({
       "$t": 0
     },
     "openSearch$itemsPerPage": {
-      "$t": 1
+      "$t": 2
     },
     "entry": [
       {
@@ -149,10 +149,10 @@ _callbacks_._smash({
         "author": [
           {
             "name": {
-              "$t": "author"
+              "$t": "YouTube Trends"
             },
             "uri": {
-              "$t": "http://gdata.youtube.com/feeds/api/users/samsungs5"
+              "$t": "http://gdata.youtube.com/feeds/api/users/trends"
             },
             "yt$userId": {
               "$t": "samsungs5"
